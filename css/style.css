@@ -1,0 +1,171 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+.container {
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.logo-text {
+    color: #1abc9c;
+}
+
+.top-menu-list {
+    display: flex;
+    list-style: none;
+    margin-top: 6px;
+}
+
+.top-menu-list-item {
+    margin-right: 30px;
+}
+
+.top-menu-list-item:last-child {
+    margin-right: 0;
+}
+
+.top-menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+.top-menu-link:hover {
+    color: #1abc9c;
+}
+
+.h1-item {
+    text-align: center;
+    position: relative;
+}
+
+.h1-item::after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 150px;
+    background-color: #1abc9c;
+    margin-top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section {
+    margin-top: 75px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.products-item {
+    box-sizing: border-box;
+    width: 23%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.products-item:hover .name {
+    background-color: #1abc9c;
+}
+
+.products-item:hover .price {
+    background-color: #7fd9c7;
+}
+
+.photo-content {
+    background-color: #e9f0fd;
+    min-height: 332px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.photo-content-img {
+   width: 100%;
+}
+
+.text-content-link {
+    text-decoration: none;
+    display: flex;
+}
+
+.name {
+    width: 83%;
+    background-color: #323232;
+    color: #FFF;
+    padding: 5px;
+    display: block;
+}
+
+.price {
+    width: 17%;
+    background-color: #8c8c8c;
+    color: white;
+    padding: 5px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.news-item {
+    width: 32%;
+}
+
+.news-h2 {
+    margin-top: 15px;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.news-photo-item {
+    width: 100%;
+}
+
+.news-h2::after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: #1abc9c;
+    margin-top: 8px;
+}
+
+.button {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #4ec6ab;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3ea48d;
+}
